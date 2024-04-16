@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./signIn.html">Sign In</a></li>
+            <li><a href="./registration.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <main class="sign-in-form">
+
+        <form id="signInForm" action="#" method="post" onsubmit="return validateForm()">
+            <h2>Contact Form</h2><br>
+            <div class="form-group">
+                <form id="contact-form" class="form">
+                    <div class="form-group">
+                    <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+                <button type="submit">Send Message</button>
+            </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-description">
+                <p>Indulge in personalized luxury with our exquisite range of customizable products, tailored to reflect
+                    your unique
+                    style and preferences. Elevate your everyday with bespoke creations that add a touch of elegance and
+                    individuality
+                    to any occasion. Discover the joy of owning a piece that's made just for you – shop now and make
+                    every moment
+                    extraordinary.</p>
+            </div>
+            <div class="footer-address">
+                <h3>Address</h3>
+                <p>Humber College</p>
+                <p>Etobicoke, Ontario, Canada</p>
+                <p class="phone">Phone: <a href="tel:487-586-8565">487-586-85650</p>
+                <p class="email">Email:<a href="mailto:customizedproducts@gmail.com">customizedproducts@gmail.com</a>
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./signIn.html">Sign In</a></li>
+                    <li><a href="./registration.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>Made by Dhwani Gangele & Marmik Nalinkumar Patel &copy; 2024 Customized Products Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

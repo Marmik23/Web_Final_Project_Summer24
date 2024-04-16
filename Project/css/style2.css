@@ -1,0 +1,147 @@
+header{
+    background-color: #FFBE98;
+    height: 100px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+header h1{
+    padding-top: 15px;
+    color: #d04e03;
+}
+
+nav{
+    background-color: #FFBE98;
+    float: left;
+    width: 10%;
+    height: 755px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-top: solid white;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: solid white;
+    height: 40px;
+}
+
+nav ul li a{
+    color: #d04e03;
+}
+
+#main{
+    float: right;
+    width: 90%;
+    overflow: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#muticol .item33 img{
+    height: 100px;
+    width: 100px;
+}
+
+.wrapper{
+    width: 94%;
+    margin: auto;
+}
+
+.wrapper h2, h3{
+    color: #d04e03;
+    font-size: larger;
+}
+
+#muticol{
+    margin: 50px 0px;
+}
+
+footer{
+    clear: both;
+    background-color: #FFBE98;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#muticol {
+    overflow: auto;
+}
+
+.item33 {
+    float: left;
+    width: 31%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFBE98;
+    margin: 5px;
+    padding: 4px;
+}
+
+.item22 {
+    float: left;
+    width: 48%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFBE98;
+    margin: 5px;
+    padding: 2px;
+}
+
+/* For Tablets */
+@media only screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+
+    nav ul li {
+        display: block;
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    .item33, .item22 {
+        width: 100%;
+    }
+}
+
+/* For Mobile Devices */
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: large;
+    }
+
+    nav ul li {
+        height: auto;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    #main {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .item33, .item22 {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

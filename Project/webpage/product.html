@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Link to jQuery (required by bxSlider) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link to bxSlider CSS -->
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <!-- Link to bxSlider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script>
+        // Initialize bxSlider when the document is ready
+        $(document).ready(function () {
+            $('.sections-container').bxSlider({
+                // bxSlider options
+                mode: 'horizontal', // You can change this to 'vertical' if you prefer vertical slider
+                auto: true, // Auto start
+                pause: 4000, // Pause time in milliseconds
+                controls: false, // Hide prev/next controls
+                pager: false, // Hide pager
+                adaptiveHeight: true // Adjust slide height based on content
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./signIn.html">Sign In</a></li>
+            <li><a href="./registration.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Customized Gifting Products</h2>
+        <!-- Apply bxSlider to this container -->
+        <div class="sections-container">
+            <!-- Each section will be a slide -->
+            <section class="inline-section">
+                <h2>Name Bracelets</h2>
+                <img src="../images/bracelet.webp" alt="Description Image">
+                <p>This product is a customized accessory featuring an individual's name or initials incorporated into
+                    the design, typically engraved or displayed on a charm or plate. It serves as a stylish and personal
+                    adornment, often worn to express individuality, commemorate special occasions, or as a thoughtful
+                    gift
+                    to celebrate meaningful relationships. Name bracelets come in various styles, materials, and
+                    designs,
+                    offering a unique way to add a personal touch to one's jewelry collection.</p>
+            </section>
+
+            <section class="inline-section">
+                <h2>Name Pendant</h2>
+                <img src="../images/pandent.jpg" alt="Description Image">
+                <p>This product is a personalized jewelry piece featuring an individual's name or initials crafted into
+                    a pendant design, often engraved or embellished with gemstones. It serves as a stylish and
+                    sentimental
+                    accessory, worn close to the heart as a symbol of identity, love, or cherished memories. Name
+                    pendants
+                    are popular for commemorating special occasions, expressing individuality, or as heartfelt gifts for
+                    loved ones.</p>
+                <!-- Content of your second section -->
+            </section>
+
+            <section class="inline-section">
+                <h2>Name Ring</h2>
+                <img src="../images/ring.png" alt="Description Image">
+                <p>This product is a personalized piece of jewelry featuring an individual's name or initials engraved
+                    or
+                    embossed onto a ring band. It serves as a stylish and meaningful accessory, often worn as a
+                    statement
+                    piece or as a symbol of identity and self-expression. Name rings are popular for commemorating
+                    special
+                    occasions, expressing individuality, or as thoughtful gifts for loved ones.</p>
+                <!-- Content of your third section -->
+            </section>
+        </div>
+
+        <h2>DIY Personalized Products</h2>
+
+        <div class="sections-container">
+            <section class="more-section">
+                <h2>Chocolate Explosion Box</h2>
+                <img src="../images/chocolate-box.png" alt="Description Image">
+                <p>This product is a unique gift or DIY project that combines the surprise of an explosion
+                    box with the delight of chocolate treats. When opened, layers of the box unfold to reveal
+                    compartments
+                    filled with assorted chocolates, creating a visually appealing and indulgent experience. It's a
+                    creative way to present chocolates for special occasions like birthdays, weddings, or as a
+                    thoughtful
+                    gesture for chocolate lovers.</p>
+            </section>
+
+            <section class="more-section">
+                <h2>Photo Explosion Box</h2>
+                <img src="../images/card-box.png" alt="Description Image">
+                <p>This product is a decorative gift that showcases photos in an interactive
+                    and visually stunning way. The box features multiple layers that fold out to reveal photos, and
+                    butterfly-themed
+                    decorations add an elegant touch to the design.It's a heartfelt and personalized keepsake perfect
+                    for capturing
+                    memories and celebrating special occasions.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-description">
+                <p>Indulge in personalized luxury with our exquisite range of customizable products, tailored to reflect
+                    your unique
+                    style and preferences. Elevate your everyday with bespoke creations that add a touch of elegance and
+                    individuality
+                    to any occasion. Discover the joy of owning a piece that's made just for you – shop now and make
+                    every moment
+                    extraordinary.</p>
+            </div>
+            <div class="footer-address">
+                <h3>Address</h3>
+                <p>Humber Colleg</p>
+                <p>Etobicoke, Ontario, Canada</p>
+                <p class="phone">Phone: <a href="tel:487-586-8565">487-586-85650</p>
+                <p class="email">Email:<a href="mailto:customizedproducts@gmail.com">customizedproducts@gmail.com</a>
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./signIn.html">Sign In</a></li>
+                    <li><a href="./registration.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>Made by Dhwani Gangele & Marmik Nalinkumar Patel &copy; 2024 Customized Products Website</p>
+    </footer>
+</body>
+
+</html>
